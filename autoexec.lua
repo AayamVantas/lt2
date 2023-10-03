@@ -1,4 +1,5 @@
 if game.PlaceId == 13822889 then
+  task.wait(.5)
   loadstring(game:HttpGetAsync("https://guard.lol/scripts/guardnotify.lua"))("https://guard.lol")
   local treefound = false
   for _,v in game:GetDescendants() do
