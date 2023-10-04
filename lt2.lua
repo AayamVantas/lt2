@@ -20,7 +20,7 @@ for _,v in game:GetDescendants() do
 			end
 		end
 	end
-end
+
 if treefound == false then
 	guardNotify("no tree found","join a new server",5,Color3.fromRGB(49, 55, 66),Color3.fromRGB(255, 102, 88),Color3.fromRGB(178, 255, 190),Color3.fromRGB(0, 0, 0),"","Sine")
 end
