@@ -5,7 +5,7 @@ for _,v in game:GetDescendants() do
 	if v.Name == "TreeClass" and v.Parent:FindFirstChild("WoodSection") and v.parent:FindFirstChild("Owner") then
 		if v.parent:FindFirstChild("Owner").Value == nil or v.parent:FindFirstChild("Owner").Value == game.Players.LocalPlayer.Name then
 			if v.Value == "Spooky" or v.Value == "SpookyNeon" then
-				game.Players.LocalPlayer.CharacterAppearanceLoaded:Connect(function(char)
+				--game.Players.LocalPlayer.CharacterAppearanceLoaded:Connect(function(char)
 					char:PivotTo(v.Parent:GetPivot())
 					local num = 0
 					for _,z in v.Parent:GetChildren() do
@@ -17,7 +17,7 @@ for _,v in game:GetDescendants() do
 					treefound = true
 					break
 					end
-				end
+				--end
 			end
 		end
 	end
